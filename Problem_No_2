@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <style>
+    .box {
+      display: inline-block;
+      height: 50px;
+      width: 50px;
+    }
+  </style>
+</head>
+
+<body>
+  <h2>Problem No. 2</h2>
+  <h1>My Info</h1>
+  <p> My name is <b>Vipin Sharma</b>
+    <br>
+    I am <b>Available</b> for hire<br>
+    My hourly price was <strike>$10</strike> and the new price is <mark>$30</mark><br>
+    Visit my website from this link <a href="hdhd.com">Click here</a>
+  </p>
+  <hr>
+  <h1>Here are some of my clients</h1>
+  <div class="box" style="background-color:red;"></div>
+  <div class="box" style="background-color:blue;"></div>
+  <div class="box" style="background-color:green;"></div>
+
+  <hr>
+
+  <h2>My Skills</h2>
+  <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>Javascript</li>
+    <ul type="hollow">
+      <li>Vuejs</li>
+      <li>ReactJS</li>
+      <li>Angular</li>
+      <ol>
+        <li>V4.0</li>
+        <li>V5.0</li>
+        <li>V6.0</li>
+        <li>V7.0</li>
+        <li>V8.0</li>
+
+      </ol>
+      <li>Svelte</li>
+
+    </ul>
+    <li>Python</li>
+
+  </ul>
+
+</body>
+
+</html>
